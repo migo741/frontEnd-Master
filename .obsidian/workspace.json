@@ -1,0 +1,225 @@
+{
+  "main": {
+    "id": "5b42c2d955a14bec",
+    "type": "split",
+    "children": [
+      {
+        "id": "86ad721cd1c8bc6f",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "3add0dbe82aa27f2",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "React Master/01-现代心智模型与协调/00-讲义.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "00-讲义"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "84c103fdfae50f80",
+    "type": "split",
+    "children": [
+      {
+        "id": "d4cbb721842bb9d8",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "9403a1c6bb01a92d",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "文件列表"
+            }
+          },
+          {
+            "id": "4cb310386c1d95d0",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "搜索"
+            }
+          },
+          {
+            "id": "7bc2278986e5838f",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "书签"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 272.5
+  },
+  "right": {
+    "id": "e69499df299a0392",
+    "type": "split",
+    "children": [
+      {
+        "id": "cfbd5af1ae9d964c",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "6bc94fe29a915191",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "React Master/01-现代心智模型与协调/00-讲义.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "00-讲义 的反向链接列表"
+            }
+          },
+          {
+            "id": "2038e3bd139bcd40",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "React Master/01-现代心智模型与协调/00-讲义.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "00-讲义 的出链列表"
+            }
+          },
+          {
+            "id": "ee37ddf3a539cb76",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "标签"
+            }
+          },
+          {
+            "id": "abd051529baddd21",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "添加笔记属性"
+            }
+          },
+          {
+            "id": "503f1470205ab1f8",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "React Master/01-现代心智模型与协调/00-讲义.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "00-讲义 的大纲"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:打开快速切换": false,
+      "graph:查看关系图谱": false,
+      "canvas:新建白板": false,
+      "daily-notes:打开/创建今天的日记": false,
+      "templates:插入模板": false,
+      "command-palette:打开命令面板": false,
+      "bases:新建数据库": false
+    }
+  },
+  "active": "3add0dbe82aa27f2",
+  "lastOpenFiles": [
+    "《JavaScript 与浏览器高级学习问题》/18-毕业项目系统设计与面试/02-答案/README.md",
+    "《JavaScript 与浏览器高级学习问题》/18-毕业项目系统设计与面试/01-练习/README.md",
+    "《JavaScript 与浏览器高级学习问题》/17-JS到React高级心智模型/02-答案/README.md",
+    "《JavaScript 与浏览器高级学习问题》/17-JS到React高级心智模型/01-练习/README.md",
+    "《JavaScript 与浏览器高级学习问题》/16-调试测试可观测与可靠交付/02-答案/README.md",
+    "《JavaScript 与浏览器高级学习问题》/16-调试测试可观测与可靠交付/01-练习/README.md",
+    "《JavaScript 与浏览器高级学习问题》/15-JS引擎内存性能与度量/02-答案/README.md",
+    "《JavaScript 与浏览器高级学习问题》/15-JS引擎内存性能与度量/01-练习/README.md",
+    "《JavaScript 与浏览器高级学习问题》/14-Web安全与前端信任边界/02-答案/README.md",
+    "《JavaScript 与浏览器高级学习问题》/14-Web安全与前端信任边界/01-练习/README.md",
+    "《JavaScript 与浏览器高级学习问题》/13-Worker并行与数据传输/02-答案/README.md",
+    "《JavaScript 与浏览器高级学习问题》/13-Worker并行与数据传输/01-练习/README.md",
+    "《JavaScript 与浏览器高级学习问题》/12-存储离线与跨上下文一致性/02-答案/README.md",
+    "《JavaScript 与浏览器高级学习问题》/12-存储离线与跨上下文一致性/01-练习/README.md",
+    "《JavaScript 与浏览器高级学习问题》/11-Fetch缓存流与实时通信/02-答案/README.md",
+    "《JavaScript 与浏览器高级学习问题》/11-Fetch缓存流与实时通信/01-练习/README.md",
+    "《JavaScript 与浏览器高级学习问题》/10-渲染流水线调度与动画/02-答案/README.md",
+    "《JavaScript 与浏览器高级学习问题》/10-渲染流水线调度与动画/01-练习/README.md",
+    "《JavaScript 与浏览器高级学习问题》/09-DOM事件输入与可访问交互/02-答案/README.md",
+    "《JavaScript 与浏览器高级学习问题》/09-DOM事件输入与可访问交互/01-练习/README.md",
+    "《JavaScript 与浏览器高级学习问题》/08-数据结构算法与前端调度/02-答案/README.md",
+    "《JavaScript 与浏览器高级学习问题》/08-数据结构算法与前端调度/01-练习/README.md",
+    "《JavaScript 与浏览器高级学习问题》/07-ESM包边界与构建语义/02-答案/README.md",
+    "《JavaScript 与浏览器高级学习问题》/07-ESM包边界与构建语义/01-练习/README.md",
+    "《JavaScript 与浏览器高级学习问题》/06-迭代器生成器异步流与ES2026/02-答案/README.md",
+    "《JavaScript 与浏览器高级学习问题》/06-迭代器生成器异步流与ES2026/01-练习/README.md",
+    "《JavaScript 与浏览器高级学习问题》/18-毕业项目系统设计与面试/02-答案",
+    "《JavaScript 与浏览器高级学习问题》/18-毕业项目系统设计与面试/01-练习",
+    "《JavaScript 与浏览器高级学习问题》/17-JS到React高级心智模型/02-答案",
+    "《JavaScript 与浏览器高级学习问题》/17-JS到React高级心智模型/01-练习",
+    "《JavaScript 与浏览器高级学习问题》/16-调试测试可观测与可靠交付/02-答案",
+    "《JavaScript 与浏览器高级学习问题》/16-调试测试可观测与可靠交付/01-练习",
+    "《JavaScript 与浏览器高级学习问题》/15-JS引擎内存性能与度量/02-答案",
+    "《JavaScript 与浏览器高级学习问题》/15-JS引擎内存性能与度量/01-练习",
+    "《JavaScript 与浏览器高级学习问题》/14-Web安全与前端信任边界/02-答案",
+    "《JavaScript 与浏览器高级学习问题》/14-Web安全与前端信任边界/01-练习"
+  ]
+}
