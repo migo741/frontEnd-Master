@@ -1,0 +1,53 @@
+{
+  "date": "2026-09-09",
+  "browser": "Codex in-app browser",
+  "url": "http://127.0.0.1:4173",
+  "autosave": {
+    "editWhileSaving": "editVersion=2,savedVersion=1,second request pending",
+    "latePreviousDocument": "current A unchanged when old B completes",
+    "failureRetry": "draft retained, explicit retry confirmed"
+  },
+  "stream": {
+    "count": 5000,
+    "sum": 247500,
+    "batches": 40,
+    "maxBatch": 128,
+    "maxPending": 1,
+    "pendingAfter": 0,
+    "workerCancelAckMs": 0.3,
+    "restartAfterCancel": "completed"
+  },
+  "faults": {
+    "searchBefore": "old query overrides latest",
+    "searchAfter": "latest remains after old completion",
+    "subscriptionsAfter100CyclesBefore": 100,
+    "subscriptionsAfter100CyclesAfter": 0,
+    "layoutBeforeMs": [
+      452.7,
+      413.0,
+      434.1,
+      427.8,
+      422.9
+    ],
+    "layoutAfterMs": [
+      11.1,
+      7.5,
+      12.5,
+      9.4,
+      13.1
+    ],
+    "sameTotalHeightsPx": [
+      103972,
+      42797
+    ],
+    "releaseFresh": "web-v2 + api-v2 -> ready",
+    "releaseOldBefore": "web-v2 + cached-api-v1 -> TypeError, empty main",
+    "releaseOldAfter": "web-v2 + cached-api-v1 -> ready",
+    "testServiceWorkerCleanup": "completed"
+  },
+  "limits": [
+    "layout timings are UI measurements, not exported DevTools traces",
+    "Heap Snapshots not exported",
+    "single browser session; no claim of cross-browser coverage"
+  ]
+}

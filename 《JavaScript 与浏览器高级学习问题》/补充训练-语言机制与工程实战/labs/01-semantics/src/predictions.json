@@ -1,0 +1,14 @@
+{
+  "conversion": null,
+  "tdz": null,
+  "binding": null,
+  "bound-constructor": null,
+  "receiver": null,
+  "invariant": null,
+  "thenable": null,
+  "iterator-close": null,
+  "sparse": null,
+  "home-object": null,
+  "function-prototype": null,
+  "then-getter-error": null
+}

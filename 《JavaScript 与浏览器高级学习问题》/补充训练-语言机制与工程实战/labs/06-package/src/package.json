@@ -1,0 +1,11 @@
+{
+  "name": "@js-lab/tiny-cache",
+  "version": "1.0.0",
+  "type": "module",
+  "exports": {
+    ".": "./index.js"
+  },
+  "files": [
+    "index.js"
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "web-v2": {
+    "asset": "/release/assets/app-v2.js",
+    "map": "/release/assets/app-v2.js.map"
+  },
+  "api-v1": {
+    "schema": 1,
+    "example": {
+      "schema": 1,
+      "inventoryEnabled": true
+    }
+  },
+  "api-v2": {
+    "schema": 2,
+    "example": {
+      "schema": 2,
+      "features": {
+        "inventory": {
+          "enabled": true
+        }
+      }
+    }
+  },
+  "cohorts": [
+    "old-session",
+    "fresh-session"
+  ]
+}

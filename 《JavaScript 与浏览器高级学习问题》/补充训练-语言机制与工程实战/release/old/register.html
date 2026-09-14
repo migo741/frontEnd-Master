@@ -1,0 +1,8 @@
+<!doctype html><html lang="zh-CN"><meta charset="UTF-8"><title>启动历史会话</title><p id="status">正在恢复历史会话……</p><script type="module">
+try{
+ await navigator.serviceWorker.register('./sw.js');
+ await navigator.serviceWorker.ready;
+ if(!navigator.serviceWorker.controller)await new Promise(r=>navigator.serviceWorker.addEventListener('controllerchange',r,{once:true}));
+ location.replace('./index.html'+location.search);
+}catch(e){document.querySelector('#status').textContent=e.message}
+</script></html>

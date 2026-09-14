@@ -1,0 +1,83 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>训练入口 · JS 进阶训练</title>
+    <link rel="stylesheet" href="/web/style.css" />
+  </head>
+  <body>
+    <header>
+      <div class="eyebrow">JAVASCRIPT / PRACTICE LAB 01—06</div>
+      <h1>把理解变成独立开发能力</h1>
+      <p class="muted">承接原课程的补充训练。先写预测和契约，再实现、制造故障、验证修复。</p>
+      <span class="badge">原生 JavaScript · 本地运行 · 无外部依赖</span>
+    </header>
+    <section>
+      <h2>从哪里开始</h2>
+      <p>
+        先读根目录 README.md 和各单元题目。01 单元用来检查机制空缺；03
+        单元把旧课的自动保存状态机接成完整功能。05 单元提供四个可以实际复现的故障。
+      </p>
+      <pre>
+node scripts/test.mjs 01
+node scripts/test.mjs 03
+node scripts/test.mjs --reference</pre
+      >
+      <p class="muted">
+        学生实现默认未完成或包含故障，因此初始测试失败是预期。参考模式通过不计入你的学习完成度。
+      </p>
+    </section>
+    <div class="grid">
+      <article class="card">
+        <small>01 / 语言机制</small>
+        <h2>12 个机制实验</h2>
+        <p>转换、TDZ、调用绑定、Proxy、thenable、迭代清理。先填写 predictions.json，再验证。</p>
+        <a href="/labs/01-semantics/01-题目.md">阅读题目 →</a>
+      </article>
+      <article class="card">
+        <small>02 / 模块设计</small>
+        <h2>可重入事件模块</h2>
+        <p>订阅与销毁、once、AbortSignal、异常隔离。用测试确定 API 的边界。</p>
+        <a href="/labs/02-events/01-题目.md">阅读题目 →</a>
+      </article>
+      <article class="card">
+        <small>03 / 跨章节交付</small>
+        <h2>自动保存完整链路</h2>
+        <p>编辑不停，保存串行。手动控制成功、失败与迟到回包，验证文档会话隔离。</p>
+        <div class="bar">
+          <a class="button" href="/web/editor.html">学生实现</a
+          ><a href="/web/editor.html?mode=reference">参考演示</a>
+        </div>
+      </article>
+      <article class="card">
+        <small>04 / 流与线程</small>
+        <h2>有界消费与 Worker</h2>
+        <p>从本地 NDJSON 流读取 5,000 行，逐批交给 Worker，验证背压与协作取消。</p>
+        <div class="bar">
+          <a class="button" href="/web/stream.html">学生实现</a
+          ><a href="/web/stream.html?mode=reference">参考演示</a>
+        </div>
+      </article>
+      <article class="card">
+        <small>05 / 陌生故障</small>
+        <h2>四个可复现的现场</h2>
+        <p>切换搜索、反复开关面板、调整表格。先观察、取证，再查看分层提示。</p>
+        <div class="bar">
+          <a class="button" href="/web/faults.html">进入故障现场</a
+          ><a href="/web/faults.html?mode=reference">修复对照</a
+          ><a href="/web/release.html">灰度白屏现场</a>
+        </div>
+      </article>
+      <article class="card">
+        <small>06 / 模块交付</small>
+        <h2>一个可消费的 ESM 包</h2>
+        <p>实现 TTL/LRU 缓存，真实 npm pack 后由独立 consumer 验证公开入口与私有边界。</p>
+        <a href="/labs/06-package/01-题目.md">阅读题目 →</a>
+      </article>
+    </div>
+    <footer>
+      本训练面向能力练习，不以通过公开测试直接认定高级职级。请保留自己的推导、测试和排障证据。
+    </footer>
+  </body>
+</html>

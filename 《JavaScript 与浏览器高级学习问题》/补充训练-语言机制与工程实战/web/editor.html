@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>自动保存 · JS 进阶训练</title>
+    <link rel="stylesheet" href="/web/style.css" />
+  </head>
+  <body>
+    <header>
+      <a href="/">← 训练入口</a>
+      <h1>自动保存：可控的请求现场</h1>
+      <span class="badge" id="mode"></span>
+      <p class="muted">
+        先读对应单元题目。修改 src 后刷新本页；参考实现通过不代表自己的练习已完成。
+      </p>
+    </header>
+    <section>
+      <div class="bar">
+        <button id="docA" class="secondary">打开文档 A</button
+        ><button id="docB" class="secondary">打开文档 B</button
+        ><label><input id="ignore" type="checkbox" checked /> 请求忽略取消（测试迟到回包）</label>
+      </div>
+      <label for="text">文档内容（停止输入 300ms 后自动保存）</label
+      ><textarea id="text" placeholder="输入第一版，再继续编辑……"></textarea>
+      <div class="bar">
+        <button id="save">立即保存 / 重试</button
+        ><button id="dispose" class="secondary">销毁会话</button>
+      </div>
+      <p id="status" class="status" role="status" aria-live="polite"></p>
+      <pre id="state"></pre>
+    </section>
+    <section>
+      <h2>可控请求队列</h2>
+      <p class="muted">请求不会自行完成。先继续编辑或切换文档，再控制每个回包。</p>
+      <div id="requests"></div>
+    </section>
+    <section>
+      <h2>服务端事实</h2>
+      <pre id="server"></pre>
+      <p>
+        成功时比较 baseVersion；409
+        后保留草稿。切换文档会结束当前编辑会话，本题不提供跨文档草稿存储。
+      </p>
+    </section>
+    <script type="module" src="/web/editor.js"></script>
+  </body>
+</html>

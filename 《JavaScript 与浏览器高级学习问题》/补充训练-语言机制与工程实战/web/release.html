@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>灰度白屏现场 · JS进阶训练</title>
+    <link rel="stylesheet" href="/web/style.css" />
+  </head>
+  <body>
+    <header>
+      <a href="/">← 训练入口</a>
+      <h1>场景 D：部分会话启动后空白</h1>
+      <span id="mode" class="badge"></span>
+      <p>
+        同一个前端发布，历史会话与新会话的结果不同。启动下方两个样本，比较运行证据，写出假设和最小修复。
+      </p>
+    </header>
+    <section>
+      <div class="bar">
+        <button id="old">启动历史会话</button
+        ><button id="fresh" class="secondary">启动全新会话</button
+        ><button id="cleanup" class="secondary">清理本实验历史会话</button>
+      </div>
+      <p id="status" role="status"></p>
+      <iframe
+        id="frame"
+        title="待诊断运营台"
+        style="width: 100%; height: 150px; border: 1px solid #ccd8cb; background: white"
+      ></iframe>
+    </section>
+    <section>
+      <h2>发布与运行日志</h2>
+      <p>
+        <a href="/release/releases.json">发布产物清单</a> · 在 Network 和 Sources
+        中检查实际请求来源与错误位置。
+      </p>
+      <pre id="logs"></pre>
+    </section>
+    <script type="module" src="/web/release.js"></script>
+  </body>
+</html>

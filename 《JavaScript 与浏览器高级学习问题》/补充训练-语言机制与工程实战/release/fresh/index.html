@@ -1,0 +1,6 @@
+<!doctype html><html lang="zh-CN"><meta charset="UTF-8"><title>运营台 · release web-v2</title><main id="app"></main><script>
+function report(type,detail){parent.postMessage({type:'lab-release-log',event:type,detail,release:'web-v2',cohort:location.pathname},location.origin)}
+addEventListener('error',e=>report('error',{message:e.message,file:e.filename,line:e.lineno}));
+addEventListener('unhandledrejection',e=>report('unhandledrejection',{message:e.reason?.message,stack:e.reason?.stack}));
+report('boot',{controlled:!!navigator.serviceWorker.controller});
+</script><script type="module" src="/release/assets/app-v2.js"></script></html>

@@ -1,0 +1,57 @@
+{
+  "conversion": [
+    8,
+    "S",
+    [
+      "default",
+      "string"
+    ]
+  ],
+  "tdz": [
+    "ReferenceError",
+    8
+  ],
+  "binding": [
+    2,
+    "none",
+    9,
+    true
+  ],
+  "bound-constructor": [
+    4,
+    0,
+    true,
+    true
+  ],
+  "receiver": 6,
+  "invariant": "TypeError",
+  "thenable": [
+    3,
+    [
+      "get",
+      "sync",
+      "call",
+      "await"
+    ]
+  ],
+  "iterator-close": [
+    1,
+    "close"
+  ],
+  "sparse": [
+    1,
+    false,
+    true,
+    "[null,null]",
+    true
+  ],
+  "home-object": 1,
+  "function-prototype": [
+    true,
+    "function"
+  ],
+  "then-getter-error": [
+    "returned",
+    "getter"
+  ]
+}

@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>故障现场 · JS 进阶训练</title>
+    <link rel="stylesheet" href="/web/style.css" />
+  </head>
+  <body>
+    <header>
+      <a href="/">← 训练入口</a>
+      <h1>先观察现象，再寻找根因</h1>
+      <span class="badge" id="mode"></span>
+      <p class="muted">
+        先读对应单元题目。修改 src 后刷新本页；参考实现通过不代表自己的练习已完成。
+      </p>
+    </header>
+    <section>
+      <h2>场景 A · 搜索结果偶尔不对</h2>
+      <p>
+        点击“复现操作”，它会按固定次序输入两个查询。记录最终结果、Network/日志时间线和你的第一假设。
+      </p>
+      <div class="bar">
+        <button id="repro">复现操作</button><button id="resetA" class="secondary">清空显示</button>
+      </div>
+      <p id="result" role="status">尚未搜索</p>
+      <pre id="timeline"></pre>
+    </section>
+    <section>
+      <h2>场景 B · 反复使用后资源增长</h2>
+      <p>打开、关闭详情后，页面看起来已恢复。保存三次 Heap Snapshot，检查资源是否也回到基线。</p>
+      <div class="bar">
+        <button id="cycle">开关详情 100 次</button
+        ><button id="tick" class="secondary">触发外部通知</button>
+      </div>
+      <p id="resources"></p>
+      <div id="panel"></div>
+    </section>
+    <section>
+      <h2>场景 C · 调整表格时卡顿</h2>
+      <p>
+        固定 2,000 行。录制 Performance，点击调整尺寸，记录主线程中的 JS、Style 与
+        Layout；修复前后使用相同设备和操作。
+      </p>
+      <div class="bar">
+        <button id="resize">调整表格尺寸</button
+        ><label
+          >响应探针 <input id="inputProbe" type="text" placeholder="可在性能实验中输入"
+        /></label>
+      </div>
+      <p id="timing"></p>
+      <div id="table"></div>
+    </section>
+    <section>
+      <h2>场景 D · 灰度发布白屏</h2>
+      <p>进一步调查不同会话的启动差异，查看真实 Service Worker、网络来源与发布产物。</p>
+      <a href="/web/release.html">进入灰度白屏现场 →</a>
+    </section>
+    <p class="status" id="status" role="status"></p>
+    <script type="module" src="/web/faults.js"></script>
+  </body>
+</html>
